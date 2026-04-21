@@ -5,8 +5,8 @@
 
 // Define pins for Ultrasonic Sensor (ECHO_PIN 10, TRIG_PIN 9)
 // Note: Ensure TRIG_PIN and ECHO_PIN do not conflict with other modes.
-const int TRIG_PIN = 9;
-const int ECHO_PIN = 10;
+const int TRIG_PIN = 10;
+const int ECHO_PIN = 11;
 const int DETECTION_THRESHOLD = 20; // x = 20 cm away
 
 void setupSensorMode() {

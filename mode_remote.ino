@@ -6,7 +6,7 @@
  */
 
 // Define pin for IR Receiver
-const int IR_RECEIVE_PIN = 11; // Changed from 10 to avoid conflict with Sensor Mode
+const int IR_RECEIVE_PIN = 9; // Changed from 10 to avoid conflict with Sensor Mode
 
 enum LightState { REMOTE_RED, REMOTE_GREEN };
 static LightState currentState = REMOTE_RED; // start on red
