@@ -25,6 +25,7 @@ enum Mode {
 Mode currentMode = STANDARD;
 
 // --- Function Prototypes (Helper for compilation outside Arduino IDE) ---
+void setupStandardMode();
 void setupSensorMode();
 void setupRemoteMode();
 void runStandardMode();
@@ -46,6 +47,7 @@ void setup() {
   pinMode(BTN_REMOTE, INPUT_PULLUP);
   
   // 4. Initialize specific modes
+  setupStandardMode();
   setupSensorMode();
   setupRemoteMode();
   
